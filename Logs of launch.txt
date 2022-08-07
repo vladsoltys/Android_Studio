@@ -1,0 +1,69 @@
+08/06 19:47:21: Launching 'app' on Xiaomi Redmi 7A.
+Install successfully finished in 13 s 221 ms.
+$ adb shell am start -n "com.android.todolist/com.android.todolist.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER
+Connected to process 4144 on device 'xiaomi-redmi_7a-6cb210d80206'.
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+I/Perf: Connecting to perf service.
+I/FeatureParser: can't find pine.xml in assets/device_features/,it may be in /system/etc/device_features
+08/06 20:40:21: Launching 'app' on Xiaomi Redmi 7A.
+Install successfully finished in 14 s 733 ms.
+$ adb shell am start -n "com.android.todolist/com.android.todolist.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER
+Connected to process 12209 on device 'xiaomi-redmi_7a-6cb210d80206'.
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+I/ndroid.todolis: Late-enabling -Xcheck:jni
+E/ndroid.todolis: Unknown bits set in runtime_flags: 0x28000
+I/Perf: Connecting to perf service.
+I/FeatureParser: can't find pine.xml in assets/device_features/,it may be in /system/etc/device_features
+E/Perf: Fail to get file list com.android.todolist
+    getFolderSize() : Exception_1 = java.lang.NullPointerException: Attempt to get length of null array
+E/Perf: Fail to get file list com.android.todolist
+    getFolderSize() : Exception_1 = java.lang.NullPointerException: Attempt to get length of null array
+D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+W/ndroid.todolis: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (greylist, reflection, allowed)
+W/ndroid.todolis: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+W/Activity: Slow Operation: Activity com.android.todolist/.MainActivity onCreate took 638ms
+W/Looper: Slow Looper main: Activity com.android.todolist/.MainActivity is 509ms late (wall=873ms running=0ms ClientTransaction{ callbacks=[android.app.servertransaction.LaunchActivityItem] lifecycleRequest=android.app.servertransaction.ResumeActivityItem }) because of 1 msg, msg 1 took 669ms (seq=2 late=2ms h=android.app.ActivityThread$H w=110)
+W/Looper: Slow Looper main: Activity com.android.todolist/.MainActivity is 1383ms late (wall=0ms running=0ms ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] }) because of 2 msg, msg 1 took 669ms (seq=2 late=2ms h=android.app.ActivityThread$H w=110), msg 2 took 873ms (seq=3 late=509ms h=android.app.ActivityThread$H w=159)
+I/AdrenoGLES: QUALCOMM build                   : c692a3f, Ie3bb699d95
+    Build Date                       : 09/29/20
+    OpenGL ES Shader Compiler Version: EV031.27.05.02
+    Local Branch                     : 
+    Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.8.6.2.R1.10.00.00.537.053
+    Remote Branch                    : NONE
+    Reconstruct Branch               : NOTHING
+    Build Config                     : S L 8.0.10 AArch32
+D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+I/AdrenoGLES: PFP: 0x005ff112, ME: 0x005ff066
+D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+I/chatty: uid=10225(com.android.todolist) identical 3 lines
+D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+I/chatty: uid=10225(com.android.todolist) identical 4 lines
+D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+I/chatty: uid=10225(com.android.todolist) identical 1 line
+D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+W/Gralloc3: mapper 3.x is not supported
+I/Choreographer: Skipped 40 frames!  The application may be doing too much work on its main thread.
+W/Looper: Slow Looper main: doFrame is 678ms late because of 3 msg, msg 1 took 689ms (seq=12 late=4ms h=android.view.Choreographer$FrameHandler c=android.view.Choreographer$FrameDisplayEventReceiver)
+I/ndroid.todolis: ProcessProfilingInfo new_methods=1676 is saved saved_to_disk=1 resolve_classes_delay=8000
+W/Looper: Slow Looper main: doFrame is 459ms late because of 2 msg, msg 1 took 472ms (seq=84 late=35ms h=android.view.Choreographer$FrameHandler c=android.view.Choreographer$FrameDisplayEventReceiver)
+

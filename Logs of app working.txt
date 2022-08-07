@@ -1,0 +1,103 @@
+2022-08-06 20:53:24.990 1552-3060/? I/ActivityManager: Force stopping com.android.todolist appid=10225 user=0: from process:15390
+2022-08-06 20:53:24.992 1552-3060/? I/AutoStartManagerService: MIUILOG- Reject RestartService packageName :com.android.todolist uid : 10225
+2022-08-06 20:53:25.332 1552-7198/? I/ActivityManager: Force stopping com.android.todolist appid=10225 user=0: from process:15404
+2022-08-06 20:53:25.333 1552-7198/? I/AutoStartManagerService: MIUILOG- Reject RestartService packageName :com.android.todolist uid : 10225
+2022-08-06 20:53:25.438 1552-7198/? I/ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.todolist/.MainActivity} from uid 2000
+2022-08-06 20:53:25.547 510-1045/? D/OemNetd: setPidForPackage: packageName=com.android.todolist, pid=15415, pid=10225
+2022-08-06 20:53:25.548 1552-1642/? I/ActivityManager: Start proc 15415:com.android.todolist/u0a225 for activity {com.android.todolist/com.android.todolist.MainActivity} caller=com.android.shell
+2022-08-06 20:53:25.898 3165-24360/? I/ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.android.todolist', mForegroundUid=10225, mForegroundPid=15415, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10091, mLastForegroundPid=2180, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+2022-08-06 20:53:25.899 4739-7176/? D/PerfEngineController: ForegroundInfo{mForegroundPackageName='com.android.todolist', mForegroundUid=10225, mForegroundPid=15415, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10091, mLastForegroundPid=2180, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+2022-08-06 20:53:25.899 3165-24360/? I/GameBoosterService: onForegroundInfoChanged: Cur=com.android.todolist	 last=com.miui.home
+2022-08-06 20:53:25.899 3165-24360/? D/GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.android.todolist', mForegroundUid=10225, mForegroundPid=15415, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10091, mLastForegroundPid=2180, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+2022-08-06 20:53:25.902 4746-4782/? I/GST: forePkg: com.android.todolist, preForePkg: com.miui.home
+2022-08-06 20:53:26.314 15415-15415/com.android.todolist I/Perf: Connecting to perf service.
+2022-08-06 20:53:26.368 15415-15415/com.android.todolist I/FeatureParser: can't find pine.xml in assets/device_features/,it may be in /system/etc/device_features
+2022-08-06 20:53:26.399 15415-15448/com.android.todolist I/ndroid.todolis: Starting a blocking GC Alloc
+2022-08-06 20:53:26.400 15415-15448/com.android.todolist I/ndroid.todolis: Starting a blocking GC Alloc
+2022-08-06 20:53:26.406 15415-15415/com.android.todolist I/ndroid.todolis: Waiting for a blocking GC Alloc
+    ��.p@B.
+2022-08-06 20:53:26.430 15415-15415/com.android.todolist I/ndroid.todolis: WaitForGcToComplete blocked Alloc on ClassLinker for 23.518ms
+2022-08-06 20:53:26.430 15415-15415/com.android.todolist I/ndroid.todolis: Starting a blocking GC Alloc
+2022-08-06 20:53:26.434 15415-15448/com.android.todolist E/Perf: Fail to get file list com.android.todolist
+2022-08-06 20:53:26.435 15415-15448/com.android.todolist E/Perf: getFolderSize() : Exception_1 = java.lang.NullPointerException: Attempt to get length of null array
+2022-08-06 20:53:26.435 15415-15448/com.android.todolist E/Perf: Fail to get file list com.android.todolist
+2022-08-06 20:53:26.435 15415-15448/com.android.todolist E/Perf: getFolderSize() : Exception_1 = java.lang.NullPointerException: Attempt to get length of null array
+2022-08-06 20:53:26.658 15415-15415/com.android.todolist D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+2022-08-06 20:53:26.686 15415-15415/com.android.todolist I/chatty: uid=10225(com.android.todolist) identical 3 lines
+2022-08-06 20:53:26.690 15415-15415/com.android.todolist D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+2022-08-06 20:53:26.703 15415-15415/com.android.todolist W/ndroid.todolis: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (greylist, reflection, allowed)
+2022-08-06 20:53:26.705 15415-15415/com.android.todolist W/ndroid.todolis: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+2022-08-06 20:53:26.716 15415-15415/com.android.todolist D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+2022-08-06 20:53:27.079 15415-15415/com.android.todolist W/Looper: Slow Looper main: Activity com.android.todolist/.MainActivity is 434ms late (wall=678ms running=0ms ClientTransaction{ callbacks=[android.app.servertransaction.LaunchActivityItem] lifecycleRequest=android.app.servertransaction.ResumeActivityItem }) because of 1 msg, msg 1 took 468ms (seq=2 late=2ms h=android.app.ActivityThread$H w=110)
+2022-08-06 20:53:27.085 15415-15415/com.android.todolist W/Looper: Slow Looper main: Activity com.android.todolist/.MainActivity is 1117ms late (wall=1ms running=0ms ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] }) because of 2 msg, msg 1 took 468ms (seq=2 late=2ms h=android.app.ActivityThread$H w=110), msg 2 took 678ms (seq=3 late=434ms h=android.app.ActivityThread$H w=159)
+2022-08-06 20:53:26.923 15415-15415/com.android.todolist I/chatty: uid=10225(com.android.todolist) identical 10 lines
+2022-08-06 20:53:26.933 15415-15415/com.android.todolist D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+2022-08-06 20:53:27.159 15415-15449/com.android.todolist I/AdrenoGLES: QUALCOMM build                   : c692a3f, Ie3bb699d95
+    Build Date                       : 09/29/20
+    OpenGL ES Shader Compiler Version: EV031.27.05.02
+    Local Branch                     : 
+    Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.8.6.2.R1.10.00.00.537.053
+    Remote Branch                    : NONE
+    Reconstruct Branch               : NOTHING
+2022-08-06 20:53:27.159 15415-15449/com.android.todolist I/AdrenoGLES: Build Config                     : S L 8.0.10 AArch32
+2022-08-06 20:53:27.177 15415-15449/com.android.todolist I/AdrenoGLES: PFP: 0x005ff112, ME: 0x005ff066
+2022-08-06 20:53:27.190 15415-15415/com.android.todolist D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+2022-08-06 20:53:27.204 15415-15415/com.android.todolist I/chatty: uid=10225(com.android.todolist) identical 1 line
+2022-08-06 20:53:27.210 15415-15415/com.android.todolist D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+2022-08-06 20:53:27.223 15415-15415/com.android.todolist D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+2022-08-06 20:53:27.271 15415-15415/com.android.todolist I/chatty: uid=10225(com.android.todolist) identical 12 lines
+2022-08-06 20:53:27.276 15415-15415/com.android.todolist D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+2022-08-06 20:53:27.298 15415-15449/com.android.todolist W/Gralloc3: mapper 3.x is not supported
+2022-08-06 20:53:27.319 1552-1628/? I/Timeline: Timeline: Activity_windows_visible id: ActivityRecord{1dc7a29 u0 com.android.todolist/.MainActivity t1202} time:86117087
+2022-08-06 20:53:27.323 1552-1640/? I/ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +1s881ms
+2022-08-06 20:53:27.392 3738-3738/? I/GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.android.todolist fieldId=-1 fieldName=null extras=null}, false)
+2022-08-06 20:53:38.067 15415-15415/com.android.todolist D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+2022-08-06 20:53:38.098 15415-15415/com.android.todolist D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+    ��.p@B.
+2022-08-06 20:53:38.468 3738-3738/? I/GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.android.todolist fieldId=-1 fieldName=null extras=null}, false)
+2022-08-06 20:53:39.669 15415-15415/com.android.todolist D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+2022-08-06 20:53:39.681 15415-15415/com.android.todolist D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+2022-08-06 20:53:39.702 15415-15449/com.android.todolist D/OpenGLRenderer: endAllActiveAnimators on 0x844fb680 (RippleDrawable) with handle 0xaf0cb8a0
+2022-08-06 20:53:39.723 1552-2979/? E/InputDispatcher: Window handle Window{5dbc615 u0 com.android.todolist/com.android.todolist.MainActivity} has no registered input channel
+2022-08-06 20:53:39.728 1552-3060/? E/InputDispatcher: Window handle Window{5dbc615 u0 com.android.todolist/com.android.todolist.MainActivity} has no registered input channel
+2022-08-06 20:53:39.731 15415-15415/com.android.todolist I/Toast: Show toast from OpPackageName:com.android.todolist, PackageName:com.android.todolist
+2022-08-06 20:53:39.742 3738-3738/? I/GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.android.todolist fieldId=-1 fieldName=null extras=null}, false)
+2022-08-06 20:53:39.790 2983-23889/? W/MiuiPerfServiceClient: interceptAndQueuing:15415|com.android.todolist|426|229|unknown|null|com.android.todolist/com.android.todolist.MainActivity|86128249492713|Slow main thread|2
+2022-08-06 20:53:41.719 1552-8469/? W/NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@6fd90c4
+    ��.p@B.
+2022-08-06 20:53:42.545 2983-23889/? W/MiuiPerfServiceClient: interceptAndQueuing:15415|com.android.todolist|294|237|unknown|null|com.android.todolist/com.android.todolist.MainActivity|86131159222712|Slow issue draw commands|5
+2022-08-06 20:53:44.051 15415-15415/com.android.todolist D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+2022-08-06 20:53:44.053 15415-15415/com.android.todolist D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+2022-08-06 20:53:44.278 3738-3738/? I/GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.android.todolist fieldId=-1 fieldName=null extras=null}, false)
+2022-08-06 20:53:45.434 3738-3738/? I/GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x61(PersonName) imeOptions=0x6 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.android.todolist fieldId=2131230821 fieldName=null extras=null}, false)
+2022-08-06 20:53:45.487 3738-3738/? I/GoogleInputMethodService: GoogleInputMethodService.onStartInputView():2023 onStartInputView(EditorInfo{inputType=0x61(PersonName) imeOptions=0x6 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.android.todolist fieldId=2131230821 fieldName=null extras=null}, false)
+2022-08-06 20:53:45.487 15415-15415/com.android.todolist D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+2022-08-06 20:53:45.515 15415-15415/com.android.todolist E/ndroid.todolis: Invalid ID 0x00000000.
+2022-08-06 20:53:45.527 15415-15415/com.android.todolist I/AssistStructure: Flattened final assist data: 3204 bytes, containing 2 windows, 25 views
+2022-08-06 20:53:45.751 2983-23889/? W/MiuiPerfServiceClient: interceptAndQueuing:15415|com.android.todolist|134|89|unknown|null|com.android.todolist/com.android.todolist.MainActivity|86135281252554|Slow main thread|2
+2022-08-06 20:53:45.805 3738-3738/? I/AndroidIME: AbstractIme.onActivate():91 LatinIme.onActivate() : EditorInfo = inputType=0x61(PersonName) imeOptions=0x6 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.android.todolist fieldId=2131230821 fieldName=null extras=null, IncognitoMode = false, DeviceLocked = false
+2022-08-06 20:53:46.020 23103-23212/? W/qbj: Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+2022-08-06 20:53:46.021 23103-7770/? W/qbj: Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+2022-08-06 20:53:46.072 23103-23209/? W/qbj: Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+2022-08-06 20:53:46.075 23103-23209/? W/qbj: Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+2022-08-06 20:53:50.953 15415-15415/com.android.todolist I/System.out: test_111
+2022-08-06 20:53:50.980 15415-15449/com.android.todolist D/OpenGLRenderer: endAllActiveAnimators on 0x846c0900 (RippleDrawable) with handle 0x84696290
+2022-08-06 20:53:50.990 1552-1590/? E/InputDispatcher: Window handle Window{4a4f530 u0 com.android.todolist/com.android.todolist.MainActivity} has no registered input channel
+2022-08-06 20:53:50.992 15415-15415/com.android.todolist D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+2022-08-06 20:53:50.994 15415-15415/com.android.todolist I/chatty: uid=10225(com.android.todolist) identical 1 line
+2022-08-06 20:53:50.999 15415-15415/com.android.todolist D/ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@1917baa
+2022-08-06 20:53:51.061 3738-3738/? I/GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.android.todolist fieldId=-1 fieldName=null extras=null}, false)
+2022-08-06 20:53:52.718 2983-23889/? W/MiuiPerfServiceClient: interceptAndQueuing:15415|com.android.todolist|240|101|unknown|null|com.android.todolist/com.android.todolist.MainActivity|86140947179687|Slow handle traversal|5
+    ��.p@B.
+2022-08-06 20:54:06.741 3165-24360/? I/ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10091, mForegroundPid=2180, mLastForegroundPackageName='com.android.todolist', mLastForegroundUid=10225, mLastForegroundPid=15415, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+2022-08-06 20:54:06.742 4739-7176/? D/PerfEngineController: ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10091, mForegroundPid=2180, mLastForegroundPackageName='com.android.todolist', mLastForegroundUid=10225, mLastForegroundPid=15415, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+2022-08-06 20:54:06.759 4746-4782/? I/GST: forePkg: com.miui.home, preForePkg: com.android.todolist
+2022-08-06 20:54:06.760 3165-24360/? I/GameBoosterService: onForegroundInfoChanged: Cur=com.miui.home	 last=com.android.todolist
+2022-08-06 20:54:06.768 3165-24360/? D/GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10091, mForegroundPid=2180, mLastForegroundPackageName='com.android.todolist', mLastForegroundUid=10225, mLastForegroundPid=15415, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+2022-08-06 20:54:09.515 1552-3085/? D/WindowProcessUtils: remove task: TaskRecord{9919d9d #1202 A=com.android.todolist U=0 StackId=210 sz=1}
+2022-08-06 20:54:09.516 1552-3085/? I/ProcessManager: SwipeUpClean: kill com.android.todolist Adj=700 State=16
+2022-08-06 20:54:09.522 1552-3085/? I/ActivityManager: Killing 15415:com.android.todolist/u0a225 (adj 700): SwipeUpClean
+2022-08-06 20:54:09.582 1552-1829/? W/InputDispatcher: channel '1513ac3 com.android.todolist/com.android.todolist.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+2022-08-06 20:54:09.583 1552-1829/? E/InputDispatcher: channel '1513ac3 com.android.todolist/com.android.todolist.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+2022-08-06 20:54:09.591 1552-2687/? I/WindowManager: WIN DEATH: Window{1513ac3 u0 com.android.todolist/com.android.todolist.MainActivity}
+2022-08-06 20:54:09.592 1552-2687/? W/InputDispatcher: Attempted to unregister already unregistered input channel '1513ac3 com.android.todolist/com.android.todolist.MainActivity (server)'
